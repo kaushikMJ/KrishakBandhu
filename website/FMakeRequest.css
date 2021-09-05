@@ -1,0 +1,41 @@
+body{
+	background-image: url("s4.jpg");
+	background-position: center; 
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 text-align: center;
+}
+
+table{
+	margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+	font-family: georgia;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+td,th{
+	padding: 10px;
+}
+
+h2{
+	font-size: 30px;
+	color: red;
+}
+
+input{
+	width: 70%;
+	height: 23px;
+	border-radius: 2px;
+}
+
+input:focus{
+	background-color: palegreen;
+}
+
+select{
+	width: 70%;
+	height: 30px;
+	border-radius: 5px;
+}

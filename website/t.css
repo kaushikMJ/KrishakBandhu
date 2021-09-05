@@ -1,0 +1,57 @@
+fieldset{
+	padding: 15px;
+	box-sizing: border-box;
+	float: left;
+	width: 40%;
+	display: inline-block;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-color: limegreen;
+	border-radius: 2%;
+}
+
+legend{
+	background-color: forestgreen;
+	color:  whitesmoke;
+	padding: 10px 15px;
+	font-size: 20px;
+	text-align: center;
+	font-family: verdana;
+}
+
+#buyerpassword,#buyerid,#farmerotp,#farmerid{
+	width: 35%;
+	height: 5%;
+	border-radius: 5px;
+}
+
+#farmerlogin,#buyerlogin,#buyerregistration,#generateotp{
+	width: 27%;
+	height: 5%;
+	margin: 2%;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: limegreen;
+	color: whitesmoke;
+	border-color: limegreen;
+}
+
+body{
+	 background-image: url(s2.jpg); 
+	 background-position: center; 
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 text-align: center;
+}
+
+h1{
+	font-size: 30pt;
+	margin-top: 2%;
+	color: indianred;
+}
+
+input:focus{
+	background-color: lightgrey;
+}
