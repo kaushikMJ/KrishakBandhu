@@ -1,0 +1,42 @@
+<html>
+<title>Krishak Bandhu</title>
+<link rel="stylesheet" href="t.css">
+<head>
+    <h1>Krishak Bandhu</h1>
+</head>
+<body>
+    <fieldset>
+			<legend>
+				Farmer's Login
+			</legend>
+			<p>
+			Mobile Number
+			<input type="text" id="farmerid" required class=""/>
+				<input type="button" name="generateotp" id="generateotp" value="Generate OTP">
+			</p>
+			<p>
+				Enter OTP
+				<input type="password" id="farmerotp" required pattern="[0-9]{6}" class=""/>
+			</p>
+			<p><input type="button" value="Login" id="farmerlogin" onclick=""/></p>
+		</fieldset>
+
+		<fieldset>
+			<legend>
+				Buyer's Login
+			</legend>
+			<p>
+				Email Id
+				<input type="email" required id="buyerid" class=""/>
+			</p>
+			<p style="padding-top: 3%;">
+				Password
+				<input type="password" required id="buyerpassword" class=""/>
+			</p>
+			<p><input type="button" value="Login" id="buyerlogin" onclick=""/>
+			<input type="button" value="Register" id="buyerregistration" onclick=""/>
+			</p>
+		</fieldset>
+</body>
+
+</html>
