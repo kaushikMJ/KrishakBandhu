@@ -1,6 +1,6 @@
 # KrishakBandhu
 A one-stop website , where farmer can list their crops for sale and buyer can buy listed crops from a farmer.
-The web portal  have two interfaces: 1)Farmer login   2)Buyer login
+The web portal  have two interfaces: 1)Farmer login   2)Buyer login.
 
 
 
